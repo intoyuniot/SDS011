@@ -1,0 +1,17 @@
+{
+    "name": "SDS011",
+    "version": "1.0.0",
+    "keywords": "SDS011",
+    "description": "SDS011是PM2.5传感器检测模块库",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/intoyuniot/SDS011.git"
+    },
+    "authors": {
+        "name": "robin",
+        "email": "robin@molmc.com"
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
+}
+
