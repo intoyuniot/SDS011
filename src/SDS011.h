@@ -30,13 +30,13 @@ class SDS011
 {
     public:
         SDS011();
-        // ³õÊ¼»¯´®¿Ú
+        // åˆå§‹åŒ–ä¸²å£
         void begin();
         void begin(USARTSerial* serial_pt);
 
-        void getSerialData();  //´Ó´®¿Ú¶ÁÈ¡²¢´¦ÀíÊı¾İ
-        int getPM25();         // »ñÈ¡2.5um·Û³¾µÄÊı¾İ, µ¥Î»Îªug/m3
-        int getPM10();         // »ñÈ¡1.0um·Û³¾µÄÊı¾İ, µ¥Î»Îªug/m3
+        void getSerialData();  //ä»ä¸²å£è¯»å–å¹¶å¤„ç†æ•°æ®
+        int getPM25();         // è·å–2.5umç²‰å°˜çš„æ•°æ®, å•ä½ä¸ºug/m3
+        int getPM10();         // è·å–1.0umç²‰å°˜çš„æ•°æ®, å•ä½ä¸ºug/m3
 
     private:
         int Pm25_;
